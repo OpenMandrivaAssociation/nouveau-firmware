@@ -2,7 +2,7 @@
 Summary:	Nouveau firmware files
 Name:   	nouveau-firmware
 Version:	20091212
-Release:	%manbo_mkrel 1
+Release:	%manbo_mkrel 2
 License:	GPLv2
 Group:  	System/Kernel and hardware
 URL:    	http://people.freedesktop.org/~pq/nouveau-drm/
