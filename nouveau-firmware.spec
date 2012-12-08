@@ -2,7 +2,7 @@
 Summary:	Nouveau firmware files
 Name:   	nouveau-firmware
 Version:	20091212
-Release:	%manbo_mkrel 2
+Release:	%manbo_mkrel 3
 License:	GPLv2
 Group:  	System/Kernel and hardware
 URL:    	http://people.freedesktop.org/~pq/nouveau-drm/
@@ -29,3 +29,15 @@ rm -rf %{buildroot}
 %defattr(0644,root,root,0755)
 %dir /lib/firmware/nouveau
 /lib/firmware/nouveau/*
+
+
+%changelog
+* Wed May 04 2011 Oden Eriksson <oeriksson@mandriva.com> 20091212-2mnb2
++ Revision: 666623
+- mass rebuild
+
+* Fri Dec 18 2009 Thomas Backlund <tmb@mandriva.org> 20091212-1mnb2
++ Revision: 479928
+- initial release 2009-12-12
+- Created package structure for nouveau-firmware.
+
