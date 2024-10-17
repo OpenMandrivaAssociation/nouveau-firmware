@@ -4,7 +4,7 @@ Version:	20091212
 Release:	4
 License:	GPLv2
 Group:		System/Kernel and hardware
-URL:		http://people.freedesktop.org/~pq/nouveau-drm/
+URL:		https://people.freedesktop.org/~pq/nouveau-drm/
 Source0:	http://people.freedesktop.org/~pq/nouveau-drm/%{name}-%{version}.tar.gz
 BuildArch:	noarch
 
